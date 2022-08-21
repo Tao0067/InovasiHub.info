@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-P7GP22C');</script>
+    <!-- End Google Tag Manager -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>InovasiHub</title>
+    <link rel="stylesheet" href="static/css/app.css">
+    <!--    <link rel="icon" type="image/png" href="https://digiswitch.id/favicon/favicon-32x32.png" sizes="32x32">-->
+    <!--    <link rel="icon" type="image/png" href="https://digiswitch.id/favicon/favicon-16x16.png" sizes="16x16">-->
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe src="ns.html" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div class="bg-white h-screen">
+    <div class="w-full flex flex-wrap">
+        <div class="hidden md:block w-1/2 shadow-2xl h-screen gradient">
+            <a href="index.html">
+                    <span class="w-32 ml-10 mt-10 hidden md:block px-12 py-6 text-white text-3xl">
+                        InovasiHub
+                    </span>
+            </a>
+            <img class="transform scale-75 hidden md:block" src="static/picture/business.svg">
+            <div class="px-12 text-white text-3xl font-extralight">
+                Ayo miliki server pulsa dengan merekmu sendiri sekarang!
+            </div>
+        </div>
+        <div class="w-full md:w-1/2 flex flex-col">
+            <div class="flex flex-col justify-center md:justify-start my-auto pt-8 md:pt-0 px-8 md:px-24 lg:px-32">
+                <p class="text-center text-3xl">Daftar Tenant Area</p>
+                <form class="flex flex-col md:pt-2" action="" method="post" onsubmit="return false">
+                    <input type="hidden" name="_token" value="MbSN5gI8fbR5XOfgQUGMrMlMtMUXoImUTUBZV38q">
+                    <div class="flex flex-col pt-4">
+                        <label for="name" class="text-lg" :value="__('Name')">Nama</label>
+                        <input class="rounded-md shadow-sm border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mt-1 leading-tight focus:outline-none focus:shadow-outline"
+                               id="name" type="name" placeholder="John Doe" name="name" required="required"
+                               autofocus="autofocus"
+                               oninvalid="this.setCustomValidity('Harap masukkan Nama yang tepat')"
+                               onchange="setCustomValidity('')">
+                    </div>
+
+                    <div class="flex flex-col pt-4">
+                        <label for="email" class="text-lg" :value="__('Email')">Email</label>
+                        <input class="rounded-md shadow-sm border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mt-1 leading-tight focus:outline-none focus:shadow-outline"
+                               id="email" type="email" placeholder="your@email.com" name="email" required="required"
+                               oninvalid="this.setCustomValidity('Harap masukkan Email yang tepat')"
+                               onchange="setCustomValidity('')">
+                    </div>
+
+                    <div class="flex flex-col pt-4">
+                        <label for="hp" class="text-lg" :value="__('Hp')">Nomor HP</label>
+                        <input class="rounded-md shadow-sm border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mt-1 leading-tight focus:outline-none focus:shadow-outline"
+                               id="hp" type="hp" placeholder="08xx" name="hp" required="required"
+                               oninvalid="this.setCustomValidity('Harap masukkan HP yang tepat')"
+                               onchange="setCustomValidity('')">
+                    </div>
+
+                    <div class="flex flex-col pt-4">
+                        <label for="password" class="text-lg">Password</label>
+                        <input class="rounded-md shadow-sm border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mt-1 leading-tight focus:outline-none focus:shadow-outline"
+                               type="password" id="password" placeholder="Password" name="password" required="required"
+                               oninvalid="this.setCustomValidity( 'Harap masukkan Password yang tepat')"
+                               oninput="setCustomValidity('')">
+                    </div>
+
+                    <div class="flex flex-col pt-4">
+                        <label for="password_confirmation" class="text-lg">Konfirmasi Password</label>
+                        <input class="rounded-md shadow-sm border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mt-1 leading-tight focus:outline-none focus:shadow-outline"
+                               type="password" id="password_confirmation" placeholder="Password"
+                               name="password_confirmation" required="required"
+                               oninvalid="this.setCustomValidity( 'Harap masukkan Konfirmasi Password yang tepat')"
+                               oninput="setCustomValidity('')">
+                    </div>
+
+                    <div class="flex flex-col pt-4">
+                        <label for="checkbox" class="text-md">Saya menyetujui
+                            <a href="syarat-ketentuan.html" target="_blank"
+                               class="text-blue-500 no-underline hover:underline text-gray-800 hover:text-pink-500">
+                                Syarat & Ketentuan
+                            </a>
+                            <input type="checkbox" id="snk" placeholder="Syarat & Ketentuan" name="snk" required=""
+                                   oninvalid="this.setCustomValidity('Silahkan setujui syarat & ketentuan')"
+                                   oninput="setCustomValidity('')"
+                                   class="float-left appearance-none rounded mr-2 text-gray-700 mt-1 leading-tight focus:outline-none focus:shadow-outline">
+                        </label>
+                    </div>
+
+                    <input type="submit" value="Daftar"
+                           class="bg-black text-white font-bold text-lg hover:bg-gray-700 p-2 mt-8">
+                </form>
+                <div class="flex items-center mt-4 text-sm text-gray-500">
+                    Sudah punya akun InovasiHub?&nbsp;
+                    <a class="underline text-sm text-gray-600 hover:text-gray-900" href="login.html">
+                        Masuk di sini
+                    </a>
+                </div>
+            </div>
+            <p class="text-gray-400 text-xs px-6 py-6">
+                InovasiHub &copy; 2022 | PT. Gerbang Inovasi Digital
+            </p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
